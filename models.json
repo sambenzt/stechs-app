@@ -75,11 +75,6 @@
             "vendor": "Arris",
             "name": "DG1660A_v9",
             "soft": "v1"
-        },
-        {
-            "vendor": "Motorola Corporation",
-            "name": "SB5102",
-            "soft": "v1"
         }
     ]
 }
