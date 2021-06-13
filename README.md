@@ -33,6 +33,20 @@ por defecto http://localhost:80
 sail up -d
 ```
 
+## Cargar la base de datos
+
+Ingresar al contenedor 
+
+```sh
+sail bash
+```
+
+Importar el archivo database.sql a la base de datos creada en el primer paso
+
+```sh
+mysql -h mariadb -u root -p laravel < database.sql 
+```
+
 ## Correr los tests
 ```sh
 sail test
